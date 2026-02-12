@@ -41,6 +41,76 @@ const Home = () => {
         <div className="shape shape-4"></div>
       </div>
 
+      {/* Products Section */}
+      <section className="products-section" id="products">
+        <div className="section-header animate-on-scroll">
+          <div className="section-badge">
+            <span className="pulse-dot"></span>
+            <span>Our AI Products</span>
+          </div>
+          <h2 className="section-title">
+            Explore Our <span className="gradient-text-animated">AI Solutions</span>
+          </h2>
+        </div>
+        <div className="products-grid">
+          <div className="product-card glass-effect animate-on-scroll">
+            <div className="product-icon">📹</div>
+            <h3>CCTV Surveillance</h3>
+            <p>AI-powered CCTV system with real-time threat detection and automated alerts.</p>
+          </div>
+          <div className="product-card glass-effect animate-on-scroll">
+            <div className="product-icon">🌐</div>
+            <h3>Network Management System</h3>
+            <p>AI-driven network monitoring, predictive maintenance, and troubleshooting.</p>
+          </div>
+          <div className="product-card glass-effect animate-on-scroll">
+            <div className="product-icon">🤖</div>
+            <h3>AI Agents for Amazon Seller</h3>
+            <p>Automate and optimize Amazon seller operations with smart AI agents.</p>
+          </div>
+          <div className="product-card glass-effect animate-on-scroll">
+            <div className="product-icon">🤖</div>
+            <h3>AI Agents for Flipkart Seller</h3>
+            <p>Boost Flipkart seller performance using intelligent AI automation.</p>
+          </div>
+          <div className="product-card glass-effect animate-on-scroll">
+            <div className="product-icon">📝</div>
+            <h3>AI Based Assessment System</h3>
+            <p>Automated, intelligent assessment and evaluation platform.</p>
+          </div>
+          <div className="product-card glass-effect animate-on-scroll">
+            <div className="product-icon">🚦</div>
+            <h3>AI Based ATCS (Traffic System)</h3>
+            <p>Adaptive traffic control system powered by AI for smart cities.</p>
+          </div>
+          <div className="product-card glass-effect animate-on-scroll">
+            <div className="product-icon">🕒</div>
+            <h3>AI Based Attendance Management System</h3>
+            <p>Face recognition and smart attendance tracking using AI.</p>
+          </div>
+          <div className="product-card glass-effect animate-on-scroll">
+            <div className="product-icon">📈</div>
+            <h3>AI Reporting Tools</h3>
+            <p>Automated analytics and reporting with actionable insights.</p>
+          </div>
+          <div className="product-card glass-effect animate-on-scroll">
+            <div className="product-icon">💬</div>
+            <h3>WhatsApp Agents</h3>
+            <p>Conversational AI agents for WhatsApp business automation.</p>
+          </div>
+          <div className="product-card glass-effect animate-on-scroll">
+            <div className="product-icon">🤖</div>
+            <h3>Chat Bot</h3>
+            <p>Custom AI chatbots for customer support and engagement.</p>
+          </div>
+          <div className="product-card glass-effect animate-on-scroll">
+            <div className="product-icon">🧠</div>
+            <h3>LLM</h3>
+            <p>Large Language Models for advanced text understanding and generation.</p>
+          </div>
+        </div>
+      </section>
+
       {/* Capabilities Section */}
       <section className="capabilities-section" id="capabilities" data-section="capabilities">
         <div className="section-background">
