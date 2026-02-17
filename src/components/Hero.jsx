@@ -136,9 +136,18 @@ const Hero = () => {
 
       {/* Hero Visual */}
       <div className="hero-visual">
-        <div className="hero-image-container" ref={orbRef}>
-          <img src={HeroImage} alt="AI Technology" className="hero-main-image" />
-          <div className="orb-glow"></div>
+        <div className="ai-orb" ref={orbRef}>
+          <div className="orb-rings">
+            <div className="orb-ring ring-1"></div>
+            <div className="orb-ring ring-2"></div>
+            <div className="orb-ring ring-3"></div>
+          </div>
+          <div className="orb-core">
+            <div className="core-inner">
+              <img src={HeroImage} alt="AI Core" className="orb-image" />
+            </div>
+            <div className="core-particles"></div>
+          </div>
         </div>
 
         {/* Data Streams */}
